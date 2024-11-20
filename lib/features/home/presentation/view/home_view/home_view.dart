@@ -28,14 +28,16 @@ class HomeView extends StatelessWidget {
           SliverToBoxAdapter(child: ListViewHz()),
           SliverToBoxAdapter(
             child: Padding(
-              padding: EdgeInsets.only(top: 50, bottom: 15, left: 20),
+              padding: EdgeInsets.only(top: 20, bottom: 15, left: 20),
               child: Text(
                 'Best Seller',
                 style: Styles.textStyle18,
               ),
             ),
           ),
-          Expanded(child: CategoryListView()),
+          Expanded(
+            child: CategoryListView(),
+          ),
         ],
       ),
     );

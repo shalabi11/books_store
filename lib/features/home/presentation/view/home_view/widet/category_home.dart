@@ -14,7 +14,7 @@ class CategoryHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+      padding: const EdgeInsets.symmetric(vertical: 10),
       child: GestureDetector(
         onTap: () {
           Navigator.of(context).push(MaterialPageRoute(
